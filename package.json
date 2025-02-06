@@ -1,0 +1,15 @@
+{
+  "name": "layeredge-farming-bot",
+  "version": "1.0.0",
+  "description": "Automated farming bot for LayerEdge nodes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "farm": "node farm.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "ethers": "^6.0.0",
+    "https-proxy-agent": "^5.0.0"
+  }
+}
